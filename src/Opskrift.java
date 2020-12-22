@@ -7,12 +7,26 @@ public class Opskrift {
     String navn;
     String fremgangsmaade;
     int antalPortioner;
-    double tilberedningstid;
+    int tilberedningstid;
     //String ingredienser;
 
     private ArrayList<Ingrediens> ingredienser = new ArrayList<>();
+    //ingredienser.add(addIngredienser);
 
 
+    public void addIngrediens(Ingrediens ingrediens){
+        addIngrediens("Glasur",1);
+        addIngrediens("flormelis", 1);
+        addIngrediens("Vand",1);
+    }
+
+    public void addIngrediens(String navn, int kalorier){
+
+    }
+
+    public void visIngrediens(){
+
+    }
 
 
     public String getNavn() {
@@ -43,22 +57,28 @@ public class Opskrift {
         return tilberedningstid;
     }
 
-    public void setTilberedningstid(double tilberedningstid) {
+    public void setTilberedningstid(int tilberedningstid) {
         this.tilberedningstid = tilberedningstid;
     }
 
-    public String getIngredienser() {
+    public ArrayList<Ingrediens> getIngredienser() {
         return ingredienser;
     }
 
-    public void setIngredienser(String ingredienser) {
+    public void setIngredienser(ArrayList<Ingrediens> ingredienser) {
         this.ingredienser = ingredienser;
     }
 
+    public Opskrift(String navn, String fremgangsmaade, int antalportioner, int tilberedningstid){
+
+    }
+
     public Opskrift(){
-    System.out.println("Opskrift er oprettet:" + getNavn());
-        System.out.println("Ingrediens er oprettet;" + getIngredienser());
-        System.out.println("Ingrediens er oprettet;" + getIngredienser());
+
+    }
+
+    public void visFremgangsmaade(){
+
     }
 
 

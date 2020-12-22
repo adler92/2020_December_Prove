@@ -25,13 +25,15 @@ public class SimpleTest {
         System.out.println("Velkommen til min opskrifts-applikation-dummy\n");
 
         Opskrift glasurOpskrift = new Opskrift();
-        glasurOpskrift.setNavn("Glasur");
-        glasurOpskrift.setIngredienser("flormelis");
-        glasurOpskrift.setIngredienser("Vand");
+        System.out.println(glasurOpskrift);
 
 
         Opskrift teOpskrift = new Opskrift();
     }
+
+    //public static opretOpskrifter(){
+
+    //}
 
     public void blankLine(){
         System.out.println("");

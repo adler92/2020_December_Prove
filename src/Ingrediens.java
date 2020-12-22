@@ -3,7 +3,7 @@ public class Ingrediens {
 
 
     String navn;
-    int kalorie;
+    int kalorier;
 
 
 
@@ -17,15 +17,15 @@ public class Ingrediens {
 
 
     public int getKalorie() {
-        return kalorie;
+        return kalorier;
     }
 
     public void setKalorie(int kalorie) {
-        this.kalorie = kalorie;
+        this.kalorier = kalorie;
     }
 
 
-public Ingrediens(String navn, int kalorie){
+public Ingrediens(String navn, int kalorier){
 
 
     }
